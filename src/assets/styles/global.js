@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
   * {
     padding: 0;
-    border: 0;
+    margin: 0;
     box-sizing: border-box;
   }
 
@@ -18,7 +18,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${({ theme }) => theme.colors.background};
+    background: ${({ theme }) => theme.colors.darkBackground};
     -webkit-font-smoothing: antialiased;
   }
 
