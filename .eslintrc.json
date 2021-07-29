@@ -34,6 +34,7 @@
     ],
     "no-use-before-define": "off",
     "react/react-in-jsx-scope": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "import/prefer-default-export": "off"
   }
 }
